@@ -1,0 +1,29 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:31",
+        "port": 51826,
+        "pin": "031-45-155"
+    },
+    
+    "description": "Garage HomeBridge",
+
+    "accessories": [
+        {
+            "accessory": "Motion Sensor",
+            "name": "Garage Motion Sensor",
+            "pirPin": 4
+        },
+	{
+	    "accessory": "GPIOGarageDoor",
+	    "name": "Garage Door",
+	    "doorSwitchPin": 20,
+	    "doorSensorPin": 21,
+            "isNCSensor": true,
+            "doorOpensInSeconds": 15
+	}
+    ],
+
+    "platforms": [
+    ]
+}
