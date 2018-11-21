@@ -3,7 +3,7 @@
         "name": "Homebridge",
         "username": "CC:22:3D:E3:CE:31",
         "port": 51826,
-        "pin": "031-45-155"
+        "pin": "031-45-155" /* Will be replaced accordingly */
     },
     
     "description": "Garage HomeBridge",
