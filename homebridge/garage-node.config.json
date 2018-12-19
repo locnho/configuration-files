@@ -17,8 +17,8 @@
 	{
 	    "accessory": "GPIOGarageDoor",
 	    "name": "Garage Door",
-	    "doorSwitchPin": 20,
-	    "doorSensorPin": 21,
+	    "doorSwitchPin": 18,
+	    "doorSensorPin": 17,
             "isNCSensor": true,
             "doorOpensInSeconds": 15
 	}
